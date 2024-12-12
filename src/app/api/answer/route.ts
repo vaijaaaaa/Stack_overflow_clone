@@ -2,7 +2,7 @@ import { databases } from "@/models/client/config";
 import { answerCollection, db } from "@/models/name";
 import { ID } from "appwrite";
 import { NextRequest, NextResponse } from "next/server";
-import { UserPrefs } from "@/store/auth";
+import { UserPrefs } from "@/store/Auth";
 import { users } from "@/models/server/config";
 export async function POST(request:NextRequest) {
     try {
